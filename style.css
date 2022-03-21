@@ -1,0 +1,38 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.present-look {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.present-look .iphone-video {
+  max-width: 436px;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.present-look .iphone-video video {
+  padding: 18px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.present-look .iphone-video img {
+  max-width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
